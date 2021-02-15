@@ -8,7 +8,7 @@ function Menu({ className }: Props) {
   return (
     <div className={className}>
       <div
-        className={` px-2 pt-2 pb-3 space-y-1 lg:flex lg:space-x-4 grid divide-y `}
+        className={` px-2 pt-2 pb-3 space-y-1 lg:flex lg:space-x-4 grid divide-y divide-black `}
       >
         <MenuLink name={""} />
         <MenuLink name={"LE GROUP"} />
